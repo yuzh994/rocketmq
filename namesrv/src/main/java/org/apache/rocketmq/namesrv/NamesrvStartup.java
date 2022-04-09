@@ -41,6 +41,10 @@ import org.apache.rocketmq.srvutil.ServerUtil;
 import org.apache.rocketmq.srvutil.ShutdownHookThread;
 import org.slf4j.LoggerFactory;
 
+/**
+ * namersrv 启动类
+ * 环境变量 ROCKETMQ_HOME=D:\code\rocketmq\ 指向项目地址
+ */
 public class NamesrvStartup {
 
     private static InternalLogger log;
